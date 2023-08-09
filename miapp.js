@@ -6,13 +6,14 @@ let nombre = ""
 
 //consulta de ingreso de datos correcto
 
+
 while (IngresoExitoso != true) {
     let nombre = prompt("Ingrese Su Nombre:")
     let apellido = prompt("Ingrese su Apellido")
 
     if (nombre != "" && apellido != "") {
         IngresoExitoso = true
-        alert("Bienvenido " + nombre + " " + apellido)
+        alert("Bienvenido " + nombre + " " + apellido + " " + " a la pre entrega de mi primer App en JS!")
     }
     else {
         alert("Por Favor ingrese su Nombre y Apellido")
